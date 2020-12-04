@@ -1,0 +1,22 @@
+{
+    "name": "FastCDN",
+    "version": "0.1.0",
+    "manifest_version": 1,
+    "icons": {
+      "logo": "icons/logo-v.png"
+    },
+    "applications": {
+        "FastCDN": {
+          "id": "FastCDN@mozilla.org"
+        }
+      },
+    "description": "FastCDN supports variable javascript library optimization at home and abroad to accelerate website access",
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "permissions": [
+        "webRequest", "webRequestBlocking", "<all_urls>"
+    ],
+    "author": "https://github.com/benben-miao",
+    "homepage_url": "https://github.com/benben-miao/FastCDN"
+}
